@@ -1,0 +1,25 @@
+{
+  "name": "benstokes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charanteja7725/benstokes-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/charanteja7725/benstokes-api/issues"
+  },
+  "homepage": "https://github.com/charanteja7725/benstokes-api#readme",
+  "dependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
