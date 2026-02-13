@@ -8,6 +8,12 @@ app.get("/s",(req,res)=>{
 app.get("/ch",(req,res)=>{
   res.send("agroconnect")
 });
+server.get("/s",(req,res)=>{
+  res.send("agro")
+})
+server.get("/ch",(req,res)=>{
+  res.send("agroconnect")
+})
 
 
 
