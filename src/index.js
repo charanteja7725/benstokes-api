@@ -2,8 +2,11 @@ const express = require("express");
 
 
 const app=express()
-app.get("",(req,res)=>{
+app.get("/s",(req,res)=>{
   res.send("agro")
+});
+app.get("/ch",(req,res)=>{
+  res.send("agroconnect")
 });
 
 
