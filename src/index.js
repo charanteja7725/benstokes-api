@@ -8,6 +8,12 @@ const server = http.createServer((req, res) => {
     JSON.stringify({ message: "Blogify API is running 🚀" })
   );
 });
+server.get("/s",(req,res)=>{
+  res.send("agro")
+})
+server.get("/ch",(req,res)=>{
+  res.send("agroconnect")
+})
 
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
